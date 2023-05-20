@@ -547,7 +547,7 @@ i { display: inline-block;
 
 .garage_intro img {
 	margin: auto;
-	padding-right: 200px;
+	margin-left: 20px;
 
 }
 
@@ -573,26 +573,28 @@ i { display: inline-block;
 
 .garage_cont_img img{
 	margin: 20px;
-	width: calc(30% - 1px);
+	width: calc(31% - 1px);
 	height: 70vh;		
 	border-radius: 3%;
 	box-shadow: 3px 3px 20px black;
-}
+	transition: 0.6s;
+}	
 
 .garage_cont_img img:hover{
-	margin: 20px;
+	margin: 5px;
 	width: calc(60% - 1px);
 	height: 80vh;		
-	border-radius: 3%;
-	box-shadow: 3px 3px 20px black;
-	transition: 1s;
+	border-radius: 2%;
+	box-shadow: 50px 50px 400px black;
+	transition: 1.3s;
 }
 
 
 .garage_cont h2{
+	color: #c01717;
 	font-size: 80px;
 	text-align: center;
 	padding-top: 4vh;
-	text-shadow: 0px 0px 10px #c01717;
+	text-shadow: 2px 2px 2px hsl(0, 4%, 5%);
 
 }
