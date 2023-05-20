@@ -279,6 +279,8 @@ i { display: inline-block;
 /** --------------- FIN CONTACTO ----------------- **/
 
 
+/**----------------- FOOTER ---------------------*/
+
 .footer_redes {
 	display: flex;
 	border: 0px solid red;
@@ -325,9 +327,13 @@ i { display: inline-block;
 	padding-top: 1.5vh;
 	padding-bottom: 1.5vh;
 	background-color: #56565a56;
-
-	
 }
+
+.footer:hover{
+	background-color: rgba(87, 87, 91, 0.87);
+	transition: 1s;
+}
+
 
 .copyright {
 	font-size: 18px;
@@ -374,7 +380,7 @@ i { display: inline-block;
 	margin-top: 18vh;
 	margin-left: calc(50% - 30vh);
 	border-bottom-right-radius: 3vh;
-	background-color: rgb(116, 115, 115);
+	background-color: rgba(116, 115, 115, 0.932);
 	box-shadow: 3px 3px 10px black;;
 	
 }	
@@ -507,7 +513,12 @@ i { display: inline-block;
 	color: white;
 }
 
+.turnos_fondo {
+	background-image: url(Motos/fondo_turnos.jpg);
+	background-size: cover;
 
+	
+}
 
 
 
@@ -543,13 +554,13 @@ i { display: inline-block;
 .garage_cont {
 	width: 90%;
 	height: 90vh;
-	
+	border: 1px solid black;
 	right: 0;
 	left: 0;
 	margin: auto;
 	margin-top: 7vh;
 	box-shadow: 3px 3px 20px black;
-	
+	border-radius: 5px;	
 	
 }
 
@@ -576,6 +587,7 @@ i { display: inline-block;
 	box-shadow: 3px 3px 20px black;
 	transition: 1s;
 }
+
 
 .garage_cont h2{
 	font-size: 80px;
