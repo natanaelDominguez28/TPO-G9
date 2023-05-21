@@ -415,8 +415,8 @@ i { display: inline-block;
 .turnos {
 	padding: 30px;
 	border: 2px solid black;
-	width: 60vh;
-	height: 60vh;
+	width: 65vh;
+	height: 70vh;
 	margin-top: 18vh;
 	margin-left: calc(50% - 30vh);
 	border-bottom-right-radius: 3vh;
@@ -567,7 +567,7 @@ i { display: inline-block;
 .garage_intro {
 	display: flex;
 	width: 100%;
-	height: 60vh;
+	height: 80vh;
 	background-image: url("garage_intro.jpg");
 	background-size: cover;
 	border-bottom: 3px solid #c01717;
@@ -593,7 +593,7 @@ i { display: inline-block;
 
 .garage_cont {
 	width: 90%;
-	height: 90vh;
+	height: 95vh;
 	border: 1px solid black;
 	right: 0;
 	left: 0;
@@ -634,7 +634,7 @@ i { display: inline-block;
 
 .garage_cont h2{
 	color: #c01717;
-	font-size: 80px;
+	font-size: 75px;
 	text-align: center;
 	padding-top: 4vh;
 	text-shadow: 2px 2px 2px hsl(0, 4%, 5%);
